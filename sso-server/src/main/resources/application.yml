@@ -1,0 +1,18 @@
+# AD域 setting
+app:
+  ldap:
+    url: ldap://192.168.43.99:389 # AD域连接地址
+    domain: contoso.com # 域名称
+#  login page url setting
+  web:
+    login:
+      url: http://localhost:8888/#/login
+# SqlServer setting
+#spring:
+#  datasource:
+#    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+#    url: jdbc:sqlserver://localhost:1433;DatabaseName=demo
+#    username: sa
+#    password: 123456
+#  jpa:
+#    show-sql: true

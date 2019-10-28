@@ -1,0 +1,19 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /qualityData
+security:
+  oauth2:
+    client:
+      client-id: qualityData
+      client-secret: qualityData
+      access-token-uri: http://localhost:8080/oauth/token
+      user-authorization-uri: http://localhost:8080/oauth/authorize
+    resource:
+      jwt:
+        key-uri: http://localhost:8080/oauth/token_key
+        key-value: quality
+app:
+  sso:
+    login:
+      url: http://localhost:8080/api/v1/login

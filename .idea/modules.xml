@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/quality-data/quality-data.iml" filepath="$PROJECT_DIR$/quality-data/quality-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quality-manage/quality-manage.iml" filepath="$PROJECT_DIR$/quality-manage/quality-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/quality_control.iml" filepath="$PROJECT_DIR$/.idea/quality_control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sso-server/sso-server.iml" filepath="$PROJECT_DIR$/sso-server/sso-server.iml" />
+    </modules>
+  </component>
+</project>
